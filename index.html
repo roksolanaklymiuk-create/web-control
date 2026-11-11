@@ -1,49 +1,94 @@
+
 <!DOCTYPE html>
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Контрольна робота - Варіант 1</title>
-    <link rel="stylesheet" href="index.css">
-    
+    <title>Контрольна робота</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Oswald:wght@500&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Oswald:wght@500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
-    <h1 class="main-title">Контрольна робота</h1>
-    <h2 class="main-title">Клим'юк Роксолана Юріївна</h2>
-    <h3 class="main-title">Варіант 1</h3>
+    <h1>Контрольна робота</h1>
+    <h2>Клим'юк Роксолани Юріївни</h2>
+    <h3>Варіант 1</h3>
 
-    <div class="container">
-        <div class="block block-1">
-            <div class="block-header">Заголовок 1</div>
-            <div class="block-content">
-                Це вміст першого блоку. Тут також є текст таблиці для перевірки шрифту.
-                <table border="1" style="margin-top: 10px; border-collapse: collapse;">
-                    <tr><td>Дані 1</td><td>Дані 2</td></tr>
-                </table>
-            </div>
+    <main class="blocks">
+
+        <div class="block block1">
+            <h4>Текст</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Integer vitae justo nec urna tincidunt posuere.
+                Donec at sem sed neque consequat facilisis, vitae.
+            </p>
         </div>
 
-        <div class="block block-2">
-            <div class="block-header">Заголовок 2</div>
-            <div class="block-content">Це вміст другого блоку. Колір фону відрізняється від інших.</div>
+        <div class="block block2">
+            <h4>Список</h4>
+            <ol>
+                <li>Хліб</li>
+                <li>Масло</li>
+                <li>Мінеральна вода</li>
+                <li>Крупи:
+                    <ul>
+                        <li>Гречка</li>
+                        <li>Рис</li>
+                        <li>Манка</li>
+                    </ul>
+                </li>
+                <li>Макарони</li>
+            </ol>
         </div>
 
-        <div class="block block-3">
-            <div class="block-header">Заголовок 3</div>
-            <div class="block-content">Це вміст третього блоку. Зверніть увагу на позиціонування заголовка.</div>
+        <div class="block block3">
+            <h4>Таблиця</h4>
+            <table>
+                <tr>
+                    <th>Країна</th>
+                    <th>Населення</th>
+                </tr>
+                <tr>
+                    <td>Німеччина</td>
+                    <td>83,02 млн. ос.</td>
+                </tr>
+                <tr>
+                    <td>Чехія</td>
+                    <td>10,69 млн. ос.</td>
+                </tr>
+                <tr>
+                    <td>Франція</td>
+                    <td>66,8 млн. ос.</td>
+                </tr>
+                <tr>
+                    <td>Бельгія</td>
+                    <td>11,46 млн. ос.</td>
+                </tr>
+            </table>
         </div>
 
-        <div class="block block-4">
-            <div class="block-header">Заголовок 4</div>
-            <div class="block-content">Це вміст четвертого блоку. Адаптивність працює через CSS Grid.</div>
+        <div class="block block4">
+            <h4>Зображення</h4>
+            <img src="https://placehold.co/320x240"
+                 alt="Зображення"
+                 width="320"
+                 height="240">
         </div>
-    </div>
 
-    <a href="https://placeholder.co" target="_blank" class="image-link">Посилання на зображення</a>
+    </main>
+
+    <p class="link">
+        <a href="https://placehold.co/800x600"
+           target="_blank"
+           rel="noopener noreferrer">
+            Посилання на зображення
+        </a>
+    </p>
 
 </body>
 </html>
